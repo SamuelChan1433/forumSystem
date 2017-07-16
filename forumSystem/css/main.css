@@ -1,0 +1,203 @@
+body {
+
+	width: 1024px;
+	min-height: 0px;
+	/*position: relative;*/
+	margin: auto;
+	left: 0; right: 0;
+	position: relative;
+}
+
+/*
+*
+*  @mainbody
+*  design lines
+* 
+*/
+
+.designLine {
+
+	border-style: solid;
+	border-color: blue;
+	border-width: 0.5px;
+}
+
+/*
+*
+* 通用样式
+*
+*/
+.common {
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+
+#mainbody {
+
+	width: 100%;
+	min-height: 600px;
+	margin-top: 0;
+	position: relative;
+}
+
+/*
+*
+* 左侧栏样式
+*
+*/
+
+#leftSide {
+
+	background-color: #C0C0C0;
+	float: left;
+	width: 300px;
+	min-height: 600px;
+	text-align: center;
+	padding: 0;
+
+	position: relative;
+}
+
+#usrIcon {
+
+	margin-top: 20px;
+	position: relative;
+	width: 188px;
+	height: 188px;
+}
+
+#opList {
+
+	position: absolute;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	list-style: none;
+}
+
+#opList div {
+
+	width: 188px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+
+	border: 1px solid #ffffff;
+}
+
+#opList div:hover {
+
+	cursor: pointer;
+}
+
+/*
+*
+* 主内容样式
+*
+*/
+
+#content {
+	
+	float: left;
+	width: 720px;
+	min-height: 600px;
+	position: relative;
+}
+
+/*
+*
+* 搜索栏样式
+*
+*/
+
+#search, #topicList {
+
+
+	width: 600px;
+	position: relative;
+	margin: 15px auto;
+}
+
+#search {
+
+	height: 120px;
+}
+
+#search div {
+
+	position: absolute;
+	margin: auto;
+
+	height: 50px;
+	line-height: 50px;
+	left: 20px;
+	top: 0;
+	bottom: 0;
+
+}
+
+/*
+*
+* 搜索栏的默认灰色字体
+*
+*/
+.defaultColor {
+
+	color: #c0c0c0;
+}
+
+
+/*
+*
+* 主内容
+*
+*/
+
+#display {
+
+	height: 100%;
+}
+
+#topicList li {
+
+	height: 30px;
+	line-height: 30px;
+	list-style: none;
+	border-bottom: 0.5px dotted black;
+}
+
+#topicList a {
+
+	float: left;
+	margin-left: 5px;
+}
+
+.topicIcon {
+
+	width: 30px; height: 30px;
+	float: left;
+	background-size:100% 100%;
+	
+	background-image: url(../img/pencil.jpg);
+}
+
+/*
+*
+*  "下一页" 链接的位置
+*
+*/
+#pageCTRL {
+
+	position: absolute;
+	bottom: 0;
+	width: 250px;
+	right: 0;
+}
+
